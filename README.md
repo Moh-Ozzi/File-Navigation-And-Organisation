@@ -1,9 +1,11 @@
 📂 File Inventory Generator
+
 This script recursively scans a folder and its subdirectories to generate a detailed inventory of all files it contains.
 
 It is designed for scenarios involving large, nested file systems, such as shared drives with thousands of mixed file types (e.g., .las, .segy, .shp, .csv, .pdf, .png, etc.).
 
 🔍 Features
+
 Counts files grouped by extension/type
 
 Lists each file's:
@@ -19,6 +21,7 @@ Full path
 Outputs results as a clean, structured CSV report
 
 🛠️ Use Case
+
 Originally developed to analyze and organize a large collection of oil and gas data files stored in a shared drive. Useful for any scenario requiring an automated scan and summary of unstructured file systems.
 
 🐍 Requirements
